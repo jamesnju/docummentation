@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <nav id="navbar">
+  <header>Technical Documentation</header>
+  <ul>
+    <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+    <li><a class="nav-link" href="#What_you_should_already_know">What you should already know</a></li>
+    <li><a class="nav-link" href="#JavaScript_and_Java">JavaScript and Java</a></li>
+    <li><a class="nav-link" href="#Hello_world">Hello world</a></li>
+    <li><a class="nav-link" href="#Variables">Variables</a></li>
+     <li><a class="nav-link" href="#Variable_scope">Variable scope</a></li>
+    
+  </ul>
+</nav>
+
+<main id="main-doc">
+  <section class="main-section" id="Introduction">
+    <header id="Introduction">Introduction</header>
+    <p>JavaScript is a cross-platform, object-oriented scripting language. It is a small and lightweight language. Inside a host environment (for example, a web browser), JavaScript can be connected to the objects of its environment to provide programmatic control over them.</p>
+    <p>JavaScript contains a standard library of objects, such as Array, Date, and Math, and a core set of language elements such as operators, control structures, and statements. Core JavaScript can be extended for a variety of purposes by supplementing it with additional objects; for example:</p>
+    <code>...</code>
+    <code>...</code>
+    <ul>
+      <li>Client-side JavaScript extends the core language by supplying objects to control a browser and its Document Object Model (DOM). For example, client-side extensions allow an application to place elements on an HTML form and respond to user events such as mouse clicks, form input, and page navigation.</li>
+      <li>Server-side JavaScript extends the core language by supplying objects relevant to running JavaScript on a server. For example, server-side extensions allow an application to communicate with a database, provide continuity of information from one invocation to another of the application, or perform file manipulations on a server.</li>
+    </ul>
+  </section>
+  
+  <section class="main-section" id="What_you_should_already_know">
+    <header id="What_you_should_already_know">What you should already know</header>
+    <p>This guide assumes you have the following basic background:</p>
+    
+    <ul>
+      <li>A general understanding of the Internet and the World Wide Web (WWW).</li>
+      <li>Good working knowledge of HyperText Markup Language (HTML).</li>
+    </ul>
+  </section>
+  
+  <section class="main-section" id="JavaScript_and_Java">
+    <header id="JavaScript_and_Java">JavaScript and Java</header>
+    <p>JavaScript and Java are similar in some ways but fundamentally different in some others. The JavaScript language resembles Java but does not have Java's static typing and strong type checking. JavaScript follows most Java expression syntax, naming conventions and basic control-flow constructs which was the reason why it was renamed from LiveScript to JavaScript.</p>
+    <p>In contrast to Java's compile-time system of classes built by declarations, JavaScript supports a runtime system based on a small number of data types representing numeric, Boolean, and string values. JavaScript has a prototype-based object model instead of the more common class-based object model. The prototype-based model provides dynamic inheritance; that is, what is inherited can vary for individual objects. JavaScript also supports functions without any special declarative requirements. Functions can be properties of objects, executing as loosely typed methods.</p>
+    <code>function greetMe(yourName) { alert("Hello " + yourName); }
+greetMe("World");</code>
+    
+    <ul>
+      <li>...</li>
+      <li>...</li>
+    </ul>
+  </section>
+  
+  <section class="main-section" id="Hello_world">
+    <header id="Hello_world">Hello world</header>
+    <p>To get started with writing JavaScript, open the Scratchpad and write your first "Hello world" JavaScript code:</p>
+    <p>...</p>
+    <code>...</code>
+    <code>...</code>
+    <ul>
+      <li>...</li>
+      <li>...</li>
+    </ul>
+  </section>
+  
+  <section class="main-section" id="Variables">
+    <header id="Variables">Variables</header>
+    <p>You use variables as symbolic names for values in your application. The names of variables, called identifiers, conform to certain rules</p>
+    <p>A JavaScript identifier must start with a letter, underscore (_), or dollar sign ($); subsequent characters can also be digits (0-9). Because JavaScript is case sensitive, letters include the characters "A" through "Z" (uppercase) and the characters "a" through "z" (lowercase).</p>
+    <code>...</code>
+    <code>...</code>
+    <ul>
+      <li>...</li>
+      <li>...</li>
+    </ul>
+  </section>
+  <section class="main-section" id="Variable_scope">
+    <header id="Variable_scope">Variable scope</header>
+    <p>When you declare a variable outside of any function, it is called a global variable, because it is available to any other code in the current document. When you declare a variable within a function, it is called a local variable, because it is available only within that function.</p>
+    <p>JavaScript before ECMAScript 2015 does not have block statement scope; rather, a variable declared within a block is local to the function (or global scope) that the block resides within.</p>
+    <p>For example the following code will log 5, because the scope of x is the function (or global context) within which x is declared, not the block, which in this case is an if statement.</p>
+    
+  </section>
+
+</main>
+
+  </body>
+</html>
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="https://fontawesome.com/v4/icon/car/">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header id="header">
+      <img alt="logo" src="https://mui.com/material-ui/material-icons/?query=lo" id="header-img"/>
+      <hr>
+      <nav id="nav-bar">
+        <a class="nav-link" href="#features">features</a>
+        <a class="nav-link" href="#how_it_works">how it works</a>
+        <a class="nav-link" href="#pricing">Pricing</a>
+
+      </nav>
+      
+    </header>
+    <h1 class="fi">Handcrafted, home-made masterpieces</h1>
+    <form action="https://www.freecodecamp.com/email-submit" method="post" id="form">
+        <input type="email" id="email" 
+        placeholder="enter email" name="email" required>
+        <input type="submit"id="submit">
+      </form>
+    <section class="features" id="features">
+      <img src="" alt="lorry">
+      <i class="import AgricultureIcon from '@mui/icons-material/Agriculture';"></i><h1>Premium Materials</h1>
+      <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+
+      <img src="" alt="lorry"><h1>Fast Shipping</h1>
+      <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+      <img src="" alt="lorry"><h1>Quality Assurance</h1>
+      <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>    
+    </section>
+    <section class="how_it_works" id="how_it_works">
+      <video  id="video" width="640" height="60%" controls>
+      <source src="video.mp4" type="video/mp4">
+    </section>
+    <section class="pricing " id="pricing">
+      <div class="box-1">
+        <h3>TENOR TROMBONE</h3>
+        <hr>
+        <h2>$600</h2>
+          <p>Lorem ipsum.<br>
+            Lorem ipsum.<br>
+            Lorem ipsum dolor.<br>
+            Lorem ipsum.</p>
+      </div>
+      <div class="box-2">
+        <h3>BASS TROMBONE</h3>
+        <hr>
+        <h2>$900</h2>
+        <p>Lorem ipsum.<br>
+            Lorem ipsum.<br>
+            Lorem ipsum dolor.<br>
+            Lorem ipsum.</p>
+
+      </div>
+      <div class="box-3">
+        <h3>VALVE TROMBONE</h3>
+        <hr>
+        <h2>$1200</h2>
+        <p>Plays similar to a Trumpet<br>
+          Great for Jazz Bands<br>
+          Lorem ipsum dolor.<br>
+          Lorem ipsum.</p>
+      </div>
+    </section>
+    <footer>
+      <p id="se">Privacy</p><p id="se">Terms</p><p id="se">Contact</p>
+      <div class="end">
+        <p>Copyright 2016, Original Trombones</p>
+      </div>
+    </footer>
+  </body>
+  cssss
+  body{
+  margin:0;
+  padding:0;
+  background-color:rgb(238,238,238);
+}
+header{
+  width:100%;
+  font-size:30px;
+  display:flex;
+  justify-content:space-between;
+  position:fixed;
+  margin:0;
+  padding:0;
+  top:0;
+   background-color:rgb(238,238,238);
+}
+#header-img{
+  display:flex;
+  
+  justify-content:flex-start;
+}
+#nav-bar{
+  
+  display:flex;
+  justify-content:flex-end;
+  ;
+}
+#nav-bar, a{
+  justify-content:space-between;
+  text-decoration:none;
+  gap:15px
+}
+a:hover{
+  background-color:red;
+}
+.fi{
+  margin:20px;
+  padding:20px;
+  text-align:center;
+}
+#form{
+  justify-content:center;
+  display:flex;
+  margin:0 auto 1px;
+}
+ #submit{
+  background-color:yellow;
+}
+ #submit:hover{
+  background-color:blue;
+  cursor:pointer;
+}
+section{
+  margin:90px;
+  padding:10px;
+
+}
+#pricing{
+  display:flex;
+  gap:20px;
+}
+.box-1, .box-2, .box-3{
+  border:2px solid black;
+  width:100%;
+  text-align:center;
+  
+}
+footer{
+  display:flex;
+  justify-content:flex-end;
+
+}
+@media (min-width:750px;){
+  header{
+    background-color:blue;
+    height:50px;
+  }
+}
